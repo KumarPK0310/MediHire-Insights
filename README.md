@@ -31,7 +31,7 @@ NexPath is a robust employability analytics platform designed to consolidate job
 ## Contact Information
 For any queries or further information, please contact:
 - **Maria Weber (Sponsor):** mariaweber@slu.edu
-- **Prasanna Kumar Bellagubbala (Project Manager):** [prasannakumae.bellagubbala@slu.edu]
+- **Prasanna Kumar Bellagubbala (Project Manager):** [prasannakumar.bellagubbala@slu.edu]
 
 ## How to Contribute
 1. Fork this repository.
