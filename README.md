@@ -25,14 +25,13 @@ NexPath is a robust employability analytics platform designed to consolidate job
 6. **Monitoring:** Continuous system monitoring (Starting: May 12, 2025)
 
 ## Team Members
-- **Project Manager:** Prasanna Kumar Bellagubbala, Poojitha Bembadi
-- **Team Members:** Rajashekar Bethi, Bhanuprakesh Reddy Kalepalli, Vinay Kumar Bethi, Sai Srujana Bhupathiraju
+- **Project Manager:** Prasanna Kumar Bellagubbala
+- **Team Members:** Rajashekar Bethi, Bhanuprakesh Reddy Kalepalli, Vinay Kumar Bethi, Sai Srujana Bhupathiraju, Poojitha Bembadi
 
 ## Contact Information
 For any queries or further information, please contact:
 - **Maria Weber (Sponsor):** mariaweber@slu.edu
-- **Prasanna Kumar Bellagubbala (Project Manager):** [Email Address]
-- **Poojitha Bembadi (Project Manager):** [Email Address]
+- **Prasanna Kumar Bellagubbala (Project Manager):** [prasannakumae.bellagubbala@slu.edu]
 
 ## How to Contribute
 1. Fork this repository.
