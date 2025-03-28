@@ -1,4 +1,4 @@
-# 🧠 MediHire Insights™
+# 🧠 MediHire Insights
 **Revolutionizing Healthcare Talent Analytics with Power BI**
 
 ---
@@ -29,7 +29,7 @@ Our Power BI dashboard is divided into four intelligently designed modules for m
 ---
 
 ## 💡 Project Description
-**MediHire Insights™** is a dynamic, data-driven dashboard tailored for the healthcare sector’s HR ecosystem. Built in Power BI, it empowers organizations to:
+**MediHire Insights** is a dynamic, data-driven dashboard tailored for the healthcare sector’s HR ecosystem. Built in Power BI, it empowers organizations to:
 - Optimize recruitment and retention strategies
 - Visualize talent distribution and department-level KPIs
 - Monitor DEI (Diversity, Equity & Inclusion) efforts
