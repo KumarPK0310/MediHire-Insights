@@ -43,7 +43,6 @@ This tool is ideal for HR leaders, analysts, and healthcare administrators aimin
 - [Installation](#installation--setup)
 - [Usage](#usage-guide)
 - [Features](#features)
-- [Live Dashboard](#live-dashboard-access)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
