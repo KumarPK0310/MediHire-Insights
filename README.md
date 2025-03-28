@@ -78,12 +78,6 @@ Power BI will prompt you to enable visuals or custom visuals if required.
 
 ---
 
-## 🔗 Live Dashboard Access
-👉 [Explore the Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiEXAMPLE123...)
-> ⚠️ _Note: Dashboard is published for academic demonstration. No sensitive data included._
-
----
-
 ## ✨ Features
 - Modular dashboard with four healthcare-relevant views
 - AI-powered KPI integration (e.g., matching score, attrition trend)
