@@ -83,8 +83,8 @@ It integrates structured insights from over 3,500 anonymized employee records de
 
 | File | Description |
 |------|-------------|
-| `MediHire_Insights.pbix` | Final Power BI application |
-| `watson_healthcare_skill_updated.csv` | Transformed dataset with clean job roles, skills, and salary fields |
+| `watson healthcare.pbix ` | Final Power BI application |
+| `watson_healthcare_updated_skills.csv` | Transformed dataset with clean job roles, skills, and salary fields |
 | `Formulas_And_PythonScript.docx` | M-code exported from Power Query steps |
 | `README.md` | Overview and instructions (this file) |
 
@@ -96,12 +96,12 @@ It integrates structured insights from over 3,500 anonymized employee records de
 - Outliers filtered, missing values addressed, and business logic added via DAX  
 - Visuals were validated through mock scenarios and peer feedback  
 
-📸 *Screenshot Tip:* Power BI Model View diagram with entity relationships
+![image](https://github.com/user-attachments/assets/ed8e63f8-73ca-45e5-8a82-f5a517588116)
 
 ---
 
 ## 🧭 How to Use
-- Open `MediHire_Insights.pbix` in Power BI Desktop  
+- Open `watson healthcare.pbix` in Power BI Desktop  
 - Explore dashboards via tabs or bookmarks  
 - Use slicers to segment by department, visa, role, etc.  
 - Hover for tooltips; export any visual as a report  
@@ -125,8 +125,8 @@ It integrates structured insights from over 3,500 anonymized employee records de
 
 ```
 medihire-insights/
-├── MediHire_Insights.pbix           # Final Power BI Dashboard
-├── watson_healthcare_skill_updated.csv              # Cleaned and transformed dataset
+├── watson healthcare.pbix           # Final Power BI Dashboard
+├── watson_healthcare_updated_skills.csv              # Cleaned and transformed dataset
 ├── Formulas_And_PythonScript.docx            # Power Query M code
 ├── README.md                        # This documentation file
 ```
