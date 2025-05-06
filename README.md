@@ -1,121 +1,143 @@
+
 # 🧠 MediHire Insights
-**Revolutionizing Healthcare Talent Analytics with Power BI**
+**Revolutionizing Healthcare Workforce Decisions with Power BI**
+
+---
+
+## 📚 Table of Contents
+- [Dashboard Modules Overview](#-dashboard-modules-overview)
+- [Project Description](#-project-description)
+- [Final Deliverables](#-final-deliverables-submission-files)
+- [Validation Approach](#-validation-approach)
+- [How to Use](#-how-to-use)
+- [Team Contributions](#-team-contributions)
+- [Project Structure](#-project-structure)
+- [Acknowledgements](#-acknowledgements)
 
 ---
 
 ## 📊 Dashboard Modules Overview
-Our Power BI dashboard is divided into four intelligently designed modules for maximum insight and decision-making impact:
+Our Power BI solution is structured into five purpose-driven modules that address strategic healthcare HR needs:
 
-### 🩺 1. Employment Overview Dashboard
-🔍 **Purpose:** Visualizes key trends in workforce distribution, hiring rates, and attrition by department and satisfaction levels.
+### 🩺 1. Executive Overview
+🔍 **Purpose:** Provide a bird’s-eye view of organization-wide workforce statistics.  
+📌 **Key Insights:**
+- Total Employees, Avg. Salary, Avg. Experience, and Job Satisfaction.
+- Department-wise income breakdown.
+- Gender composition and top job roles by volume.
 
-![image](https://github.com/user-attachments/assets/63364780-c7af-4a7f-b4b1-33ddefd73c30)
+<img width="1269" alt="Screenshot 2025-05-05 at 9 12 51 PM" src="https://github.com/user-attachments/assets/80309606-ce92-4df9-a8cb-5fc90185a9c0" />
 
-### 🧾 2. Employee Insights Dashboard
-📈 **Purpose:** Highlights attrition metrics, salary trends, and performance indicators by role and visa status to assist HR in fine-tuning engagement strategies.
 
-![image](https://github.com/user-attachments/assets/b251dd2f-4fcf-40b9-be8c-af29f5d98f24)
+### 🧑‍⚕️ 2. Skill Demand Dashboard
+📈 **Purpose:** Analyze skills required across roles and departments to guide training and hiring.  
+📌 **Key Insights:**
+- Skills mapped per role.
+- High-frequency skills by department.
+- Unpivoted, cleaned `RequiredSkills` field.
 
-### 📥 3. Recruitment Funnel Dashboard
-📊 **Purpose:** End-to-end pipeline tracking — from applications to final hires — with job role analysis and AI-based matching scores.
+<img width="1269" alt="Screenshot 2025-05-05 at 9 13 20 PM" src="https://github.com/user-attachments/assets/933c1ce5-a2c9-4d39-8133-2fd4ecf56d78" />
 
-![image](https://github.com/user-attachments/assets/33d0333c-331e-4f03-87a8-feeba82a4f69)
 
-### 🌐 4. Diversity & Inclusion Dashboard
-🌈 **Purpose:** Tracks demographic and cultural diversity using gender and visa status analytics, monitoring DEI progress across the organization.
+### 💵 3. Salary Insight Dashboard
+💰 **Purpose:** Reveal compensation trends across job roles, experience, and visa status.  
+📌 **Key Insights:**
+- Avg. Monthly Income by Job Role and Visa Type.
+- Min/Max salary boundaries.
+- Salary hike correlation with tenure.
 
-![image](https://github.com/user-attachments/assets/a842e3ef-8d3f-49d3-bbf0-812e42e4ed1e)
+<img width="1269" alt="Screenshot 2025-05-05 at 9 13 36 PM" src="https://github.com/user-attachments/assets/819b8b55-964b-4d94-99a4-37d2702de6d5" />
+
+
+### 🛂 4. Visa Insights Dashboard
+🌍 **Purpose:** Evaluate employment dynamics by visa status — H1B, OPT, STEM OPT, Green Card, US Citizens.  
+📌 **Key Insights:**
+- Distribution of employees by visa category.
+- Salary hike percentages across visa types.
+- Visa demographics per department and job role.
+
+<img width="1269" alt="Screenshot 2025-05-05 at 9 13 49 PM" src="https://github.com/user-attachments/assets/96206c0e-6581-4956-a97b-460af98b8553" />
+
+
+### ⚙️ 5. Settings Page
+🛠️ **Purpose:** Enable slicing across all dashboards using filters like Marital Status, Education Field, Shift, and Visa Type.  
+📌 Fully interactive slicers to dynamically adjust all modules.
+
+<img width="1269" alt="Screenshot 2025-05-05 at 9 14 04 PM" src="https://github.com/user-attachments/assets/9b524103-34f8-4615-b57e-2119ac6393ed" />
 
 ---
 
 ## 💡 Project Description
-**MediHire Insights** is a dynamic, data-driven dashboard tailored for the healthcare sector’s HR ecosystem. Built in Power BI, it empowers organizations to:
-- Optimize recruitment and retention strategies
-- Visualize talent distribution and department-level KPIs
-- Monitor DEI (Diversity, Equity & Inclusion) efforts
-- Harness AI-aligned hiring metrics to support strategic workforce planning
+**MediHire Insights** is a Power BI-powered workforce analytics application crafted to support HR managers and healthcare executives in improving:  
+- Talent planning and retention  
+- DEI (Diversity, Equity, Inclusion) tracking  
+- Skills development strategies  
+- Visa and international workforce visibility  
+- Salary equity assessments  
 
-This tool is ideal for HR leaders, analysts, and healthcare administrators aiming to improve transparency, inclusivity, and performance.
-
----
-
-## 🗂️ Table of Contents
-- [Installation](#installation--setup)
-- [Usage](#usage-guide)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+It integrates structured insights from over 3,500 anonymized employee records derived from the [Kaggle classification-models-logistic dataset](https://www.kaggle.com/code/ilarrumbide/classification-models-logistic/data), reshaped for healthcare use.
 
 ---
 
-## ⚙️ Installation / Setup
-Follow these steps to launch the project locally using Power BI Desktop:
+## 📂 Final Deliverables (Submission Files)
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/medihire-insights.git
-cd medihire-insights
-```
-2. **Open Power BI File**
-Launch `MediHire_Insights.pbix` using Power BI Desktop.
-
-3. **Connect Data Sources**
-Ensure local or cloud data connections are configured (CSV, Excel, SQL).
-
-4. **Install Dependencies (if any)**
-Power BI will prompt you to enable visuals or custom visuals if required.
+| File | Description |
+|------|-------------|
+| `MediHire_Insights.pbix` | Final Power BI application |
+| `watson_healthcare_skill_updated.csv` | Transformed dataset with clean job roles, skills, and salary fields |
+| `Formulas_And_PythonScript.docx` | M-code exported from Power Query steps |
+| `README.md` | Overview and instructions (this file) |
 
 ---
 
-## 🚀 Usage Guide
-- Launch the dashboard in **Power BI Desktop** or via **Power BI Service**
-- Use slicers and filters for real-time data segmentation (e.g., by Job Role, Gender, Department)
-- Hover over visual elements for detailed tooltips
-- Click bookmarks or tabs to navigate across dashboard modules
+## 🧪 Validation Approach
+- Power Query used for skill parsing and job title normalization  
+- Schema validated in Power BI model view (1:M relationships)  
+- Outliers filtered, missing values addressed, and business logic added via DAX  
+- Visuals were validated through mock scenarios and peer feedback  
+
+📸 *Screenshot Tip:* Power BI Model View diagram with entity relationships
 
 ---
 
-## ✨ Features
-- Modular dashboard with four healthcare-relevant views
-- AI-powered KPI integration (e.g., matching score, attrition trend)
-- Role-based DEI analytics
-- Multi-slicer interactivity for custom queries
-- Scalable, enterprise-ready design
+## 🧭 How to Use
+- Open `MediHire_Insights.pbix` in Power BI Desktop  
+- Explore dashboards via tabs or bookmarks  
+- Use slicers to segment by department, visa, role, etc.  
+- Hover for tooltips; export any visual as a report  
+
+---
+
+## 🤝 Team Contributions
+
+| Team Member       | Contributions                                                |
+|-------------------|--------------------------------------------------------------|
+| **Prasanna**      | Project lead, charter definition, traceability matrix       |
+| **Bhanuprakash**  | Data transformation, Power Query steps, skill parsing       |
+| **Rajashekar**    | UI/UX design for Power BI dashboard                         |
+| **Vinay**         | DAX development, salary calculations, logic validation      |
+| **Poojitha**      | Documentation, visual feedback, matrix documentation        |
+| **Sai Srujana**   | Quality assurance, testing, final application verification  |
 
 ---
 
 ## 🗃️ Project Structure
+
 ```
 medihire-insights/
-├── MediHire_Insights.pbix
-├── README.md
-├── LICENSE
+├── MediHire_Insights.pbix           # Final Power BI Dashboard
+├── watson_healthcare_skill_updated.csv              # Cleaned and transformed dataset
+├── Formulas_And_PythonScript.docx            # Power Query M code
+├── README.md                        # This documentation file
 ```
-
----
-
-## 🤝 Contributing
-We welcome collaborations! 🧩
-- Open a pull request with proposed changes
-- For large contributions, raise an issue for discussion
-- Follow Power BI best practices
-
----
-
-## 🛡️ License
-MIT License. See [LICENSE](LICENSE) for terms and reuse guidelines.
 
 ---
 
 ## 🙌 Acknowledgements
-- **Team**: Prasanna, Bhanuprakash, Rajashekar, Vinay, Poojitha, Sai Srujana
-- **Built With**: Power BI, Excel, DAX, Jira
-- **Institution**: Saint Louis University — MS Health Informatics Program
-- Special thanks to our professors and industry mentors
+- **Tools Used:** Power BI, Excel, Power Query, DAX  
+- **Institution:** Saint Louis University — MS in Health Informatics Program  
+- **Mentorship:** Special thanks to our professors and industry reviewers
 
 ---
 
 🔬 *MediHire Insights™ — Turning Healthcare HR Data Into Smart Strategy.*
-
