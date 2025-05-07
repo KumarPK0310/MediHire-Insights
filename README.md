@@ -46,7 +46,8 @@ Our Power BI solution is structured into five purpose-driven modules that addres
 - Min/Max salary boundaries.
 - Salary hike correlation with tenure.
 
-<img width="1269" alt="Screenshot 2025-05-05 at 9 13 36 PM" src="https://github.com/user-attachments/assets/819b8b55-964b-4d94-99a4-37d2702de6d5" />
+![image](https://github.com/user-attachments/assets/904128ac-fe9f-4030-ae75-d19058a12dde)
+
 
 
 ### 🛂 4. Visa Insights Dashboard
