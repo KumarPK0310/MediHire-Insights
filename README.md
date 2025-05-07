@@ -47,7 +47,7 @@ Our Power BI solution is structured into five purpose-driven modules that addres
 - Min/Max salary boundaries.
 - Salary hike correlation with tenure.
 
-![image](https://github.com/user-attachments/assets/904128ac-fe9f-4030-ae75-d19058a12dde)
+<img width="1261" alt="Screenshot 2025-05-06 at 8 06 48 PM" src="https://github.com/user-attachments/assets/04a631db-629d-4a79-8560-d95305fde9de" />
 
 
 
