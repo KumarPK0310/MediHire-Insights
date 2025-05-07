@@ -36,7 +36,8 @@ Our Power BI solution is structured into five purpose-driven modules that addres
 - High-frequency skills by department.
 - Unpivoted, cleaned `RequiredSkills` field.
 
-<img width="1269" alt="Screenshot 2025-05-05 at 9 13 20 PM" src="https://github.com/user-attachments/assets/933c1ce5-a2c9-4d39-8133-2fd4ecf56d78" />
+![image](https://github.com/user-attachments/assets/6bb5fbc9-559a-474e-844a-f05352ac9854)
+
 
 
 ### 💵 3. Salary Insight Dashboard
@@ -57,7 +58,7 @@ Our Power BI solution is structured into five purpose-driven modules that addres
 - Salary hike percentages across visa types.
 - Visa demographics per department and job role.
 
-<img width="1269" alt="Screenshot 2025-05-05 at 9 13 49 PM" src="https://github.com/user-attachments/assets/96206c0e-6581-4956-a97b-460af98b8553" />
+<img width="1261" alt="Screenshot 2025-05-06 at 8 06 04 PM" src="https://github.com/user-attachments/assets/c1122e26-8482-49b0-af4a-1b15ac36c2ae" />
 
 
 ### ⚙️ 5. Settings Page
